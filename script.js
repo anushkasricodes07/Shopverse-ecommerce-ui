@@ -192,7 +192,7 @@ const products = [
       price: "₹1,299"
    },
    
-   
+ 
    
 ];
 
