@@ -127,3 +127,99 @@ themeBtn.addEventListener("click", () => {
 
 });
 
+const products = [
+
+   {
+      title: "Gadgets",
+      image: "earphone.jpg",
+      price: "₹999"
+   },
+
+   {
+      title: "Fashion",
+      image: "fashion.jpg",
+      price: "₹2,500"
+   },
+   {
+      title: "Personal Care",
+      image: "makeup.jpg",
+      price: "₹599"
+   },
+
+   {
+      title: "Accessories",
+      image: "styling.jpeg",
+      price: "₹14,99"
+   },
+   {
+      title: "Electronics",
+      image: "electronics.png",
+      price: "₹799"
+   },
+   {
+      title: "Kitchenware",
+      image: "kitchen.jpg",
+      price: "₹325"
+   },
+   {
+      title: "Interior",
+      image: "decoration.webp",
+      price: "₹250"
+   },
+   {
+      title: "Furniture",
+      image: "furniture.png",
+      price: "₹5,999"
+   },
+   {
+      title: "Fitness",
+      image: "fitness.jpg",
+      price: "₹12,99"
+   },
+   {
+      title: "Stationary",
+      image: "stationary2.jpg",
+      price: "₹399"
+   },
+   {
+      title: "Pets",
+      image: "pet.jpg",
+      price: "₹879"
+   },
+   {
+      title: "Footwear",
+      image: "footwear.jpg",
+      price: "₹1,299"
+   },
+   
+   
+   
+];
+
+const productContainer = document.getElementById("product-container");
+
+let html = "";
+
+products.forEach((product) => {
+   html += `
+      <div class="box">
+         <div class="box-content">
+            <h2>${product.title}</h2>
+
+            <div class="box-img"
+            style="background-image:url('${product.image}')">
+            </div>
+
+            <p style="color:red; font-size:25px;">
+               ${product.price}
+            </p>
+
+            <button class="cart-btn">
+               Add to Cart
+            </button>
+         </div>
+      </div>
+   `;
+});
+
+productContainer.innerHTML = html;

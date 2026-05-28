@@ -150,25 +150,40 @@ span{
     color:darkblue;
 } 
 /**shop-section**/
-.shop-section{
+.shop-section {
     display: flex;
-    justify-content: space-evenly;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
     background-color: wheat;
-} 
-.box{
-    height: 400px;
-    width:23%;
-    background-color: rgba(205, 170, 115, 0.717);
-    padding: 20px 0px 15px;
-    margin-top: 15px;
+    padding: 20px;
 }
-.box-img{
+
+.box {
+    width: 200px;   /* fixed card size better than % */
+    height: 300px;
+    background-color: rgba(205, 170, 115, 0.717);
+    padding: 20px 10px 15px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+/* .box-img{
     height: 300px;
     background-size: cover;
     margin-top: 1em;
     margin-bottom: 1em;
     cursor: pointer;
-}
+} */
+ .box-img{
+    width:100%;
+    height:160px;
+    background-size: contain;
+    background-position: centre;
+    background-repeat: no-repeat;
+     margin-top: 1em;
+    margin-bottom: 1em;
+    cursor: pointer;
+ }
 .box-content{
     margin-left: 2em;
     margin-right: 1em;
@@ -184,11 +199,11 @@ span{
     color: darkblue;
 }
 /**Shop-now**/
-.shop-now{
+/* .shop-now{
     display: flex;
     justify-content: space-evenly;
     background-color: wheat;
-} 
+}  */
 /**footer**/
 footer{
     margin-top: 15px;
@@ -285,6 +300,7 @@ ul a{
     border-radius: 5px;
     cursor: pointer;
     font-weight: 600;
+    margin-top: 10px;
 }
 
 .cart-btn:hover{
