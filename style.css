@@ -299,7 +299,7 @@ ul a{
 }
 
 .cart-btn:hover{
-    background-color: orange;
+    background-color: rgb(101, 67, 3);
 }
 
 #cart-count{
