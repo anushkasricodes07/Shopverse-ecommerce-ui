@@ -149,7 +149,7 @@ const products = [
    {
       title: "Accessories",
       image: "styling.jpeg",
-      price: "₹14,99"
+      price: "₹1,499"
    },
    {
       title: "Electronics",
@@ -174,7 +174,7 @@ const products = [
    {
       title: "Fitness",
       image: "fitness.jpg",
-      price: "₹12,99"
+      price: "₹1,299"
    },
    {
       title: "Stationary",
@@ -189,7 +189,7 @@ const products = [
    {
       title: "Footwear",
       image: "footwear.jpg",
-      price: "₹1,299"
+      price: "₹599"
    },
    
  
