@@ -77,9 +77,9 @@ searchBox.addEventListener("input", () => {
 const heroSection = document.querySelector(".hero-section");
 
 const images = [
-    "amazonhero.jpg",
-    "amzonhero1.jpg",
-    "amazon2.jpg"
+    "hero1.jpg",
+    "hero2.jpg",
+    "hero3.jpg"
 ];
 
 let imageIndex = 0;
