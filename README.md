@@ -72,6 +72,6 @@ Through this project, I practiced:
 - Payment Gateway Integration
 
 ## Project link
-
+https://anushkasricodes07.github.io/Shopverse-ecommerce-ui/
 
 
